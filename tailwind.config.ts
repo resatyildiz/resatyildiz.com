@@ -40,6 +40,9 @@ export default {
           900: '#2a4365',
         },
       },
+      backgroundImage: {
+        title: "url('/assets/images/bg.png')",
+      },
     },
   },
   plugins: [],
