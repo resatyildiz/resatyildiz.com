@@ -29,14 +29,6 @@ export default function Layout(props: { children: React.ReactNode }) {
           </li>
           <li>
             <Link
-              href="/guestbook/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('guestbook_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/portfolio/"
               className="border-none text-gray-700 hover:text-gray-900"
             >
@@ -46,9 +38,17 @@ export default function Layout(props: { children: React.ReactNode }) {
           <li>
             <a
               className="border-none text-gray-700 hover:text-gray-900"
-              href="https://github.com/ixartz/Next-js-Boilerplate"
+              href="https://github.com/resatyildiz"
             >
               GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              className="border-none text-gray-700 hover:text-gray-900"
+              href="https://www.linkedin.com/in/resatyildiz/"
+            >
+              LinkedIn
             </a>
           </li>
         </>
