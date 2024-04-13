@@ -96,5 +96,15 @@
         ]
       }
     }
-  ]
+  ],
+
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn"],
+      "config": "tailwind.config.cjs"
+    },
+    "next": {
+      "rootDir": ["apps/*/"]
+    }
+  }
 }

@@ -31,9 +31,13 @@
     "@hookform/resolvers": "^3.3.4",
     "@libsql/client": "^0.6.0",
     "@logtail/pino": "^0.4.21",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@spotlightjs/spotlight": "^1.2.16",
     "@t3-oss/env-nextjs": "^0.9.2",
     "checkly": "^4.6.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.368.0",
     "next": "^14.1.4",
     "next-intl": "^3.11.0",
     "pino": "^8.19.0",
@@ -42,6 +46,8 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.2",
     "sharp": "^0.33.3",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.22.4"
   },
   "devDependencies": {
