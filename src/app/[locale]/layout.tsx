@@ -1,9 +1,11 @@
 import '@/styles/global.css';
 
 import type { Metadata } from 'next';
+import { Inter as FontSans } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 
+import { cn } from '@/lib/utils';
 import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
@@ -31,6 +33,11 @@ export const metadata: Metadata = {
   ],
 };
 
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+});
+
 export default function RootLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
@@ -43,7 +50,9 @@ export default function RootLayout(props: {
 
   return (
     <html lang={props.params.locale}>
-      <body>
+      <body
+        className={cn(' min-h-screen font-sans antialiased', fontSans.variable)}
+      >
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}
