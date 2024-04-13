@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
@@ -17,7 +18,15 @@ const BaseTemplate = (props: {
             <h1 className="text-3xl font-bold text-gray-900">
               {AppConfig.name}
             </h1>
-            <h2 className="text-xl">{t('description')}</h2>
+            <h2 className="text-xl">
+              {AppConfig.jobTitle}&nbsp;@&nbsp;
+              <Link
+                href={AppConfig.companyURL}
+                className="underline hover:no-underline"
+              >
+                {AppConfig.company}
+              </Link>
+            </h2>
           </div>
 
           <div className="flex justify-between">

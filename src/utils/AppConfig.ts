@@ -2,10 +2,12 @@ import type { LocalePrefix } from 'node_modules/next-intl/dist/types/src/shared/
 
 const localePrefix: LocalePrefix = 'as-needed';
 
-// FIXME: Update this configuration file based on your project information
 export const AppConfig = {
-  name: 'Nextjs Starter',
-  locales: ['en', 'fr'],
+  name: 'Reşat YILDIZ',
+  locales: ['en', 'tr'],
+  company: 'Gordion',
+  companyURL: 'https://www.gordionteknoloji.com/',
+  jobTitle: 'Senior Frontend Developer',
   defaultLocale: 'en',
   localePrefix,
 };

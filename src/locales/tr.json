@@ -1,0 +1,71 @@
+{
+  "RootLayout": {
+    "home_link": "Selam!",
+    "about_link": "Ben Kimim?",
+    "guestbook_link": "Ziyaretçi Defteri",
+    "portfolio_link": "Portfolyo",
+    "sign_in_link": "Giriş yap",
+    "sign_up_link": "Kayıt ol"
+  },
+  "BaseTemplate": {
+    "description": "Nextjs Boilerplate ile Tailwind CSS için başlangıç kodu",
+    "made_with": "İle yapıldı"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Sunumu",
+    "meta_description": "Next js Boilerplate, projeniz için mükemmel bir başlangıç kodudur. Next.js çerçevesiyle React uygulamanızı oluşturun."
+  },
+  "Guestbook": {
+    "meta_title": "Ziyaretçi Defteri",
+    "meta_description": "CRUD işleminin bir örneği",
+    "database_powered_by": "Veritabanı tarafından desteklenmektedir",
+    "loading_guestbook": "Ziyaretçi defteri yükleniyor..."
+  },
+  "GuestbookForm": {
+    "username": "Kullanıcı adı",
+    "body": "İçerik",
+    "save": "Kaydet"
+  },
+  "About": {
+    "meta_title": "Hakkımızda",
+    "meta_description": "Hakkında sayfası açıklaması",
+    "about_paragraph": "Hakkımızda sayfamıza hoş geldiniz! Harika yazılımlar oluşturmaya adanmış tutkulu bir ekip olarak sizi karşılıyoruz.",
+    "translation_powered_by": "Çeviri tarafından desteklenmektedir"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolyo",
+    "meta_description": "Portfolyo sayfama hoş geldiniz!",
+    "presentation": "Portfolyo sayfama hoş geldiniz! Burada, çalışmalarımın ve başarılarımın özenle seçilmiş bir koleksiyonunu bulacaksınız. Bu portfolyo aracılığıyla, uzmanlığımı, yaratıcılığımı ve projelerinize getirebileceğim değeri sergilemeyi amaçlıyorum.",
+    "portfolio_name": "Portfolyo {name}",
+    "log_management_powered_by": "Günlük yönetimi tarafından desteklenmektedir"
+  },
+
+  "PortfolioSlug": {
+    "meta_title": "Portfolyo {slug}",
+    "meta_description": "Portfolyo {slug} açıklaması",
+    "header": "Portfolyo {slug}",
+    "content": "Kurumsal bir etkinlik için tanıtım materyalleri ve marka unsurları oluşturuldu. Görsel olarak birleşik bir tema oluşturuldu, bir logo, posterler, bayraklar ve dijital varlıkları kapsadı. Müşterinin marka kimliğini entegre ederken ona çağdaş ve yenilikçi bir yaklaşım kattı. Etkinlik katılımcılarından olumlu yanıtlar alındı, bu da katılımcıların ilgisini artıran ve marka görünürlüğünü artıran başarılı bir etkinlikle sonuçlandı.",
+    "error_reporting_powered_by": "Hata raporlama tarafından desteklenmektedir",
+    "coverage_powered_by": "Kod kapsamı tarafından desteklenmektedir"
+  },
+  "SignIn": {
+    "meta_title": "Giriş yap",
+    "meta_description": "Kullanıcı dostu giriş işlemimizle hesabınıza sorunsuzca giriş yapın."
+  },
+  "SignUp": {
+    "meta_title": "Kayıt ol",
+    "meta_description": "Kullanıcı dostu kayıt işlemimizle kolayca hesap oluşturun."
+  },
+  "Dashboard": {
+    "meta_title": "Kontrol Paneli",
+    "hello_message": "Merhaba {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "Kullanıcı Profili"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Kontrol Paneli",
+    "user_profile_link": "Hesabınızı yönetin",
+    "sign_out": "Çıkış yap"
+  }
+}
