@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-import LocaleSwitcher from '@/components/LocaleSwitcher';
+import LocaleSwitcher from '@/components/widget/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
 export default function Layout(props: { children: React.ReactNode }) {
@@ -10,48 +10,14 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <BaseTemplate
       leftNav={
-        <>
-          <li>
-            <Link
-              href="/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('home_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/about/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('about_link')}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/portfolio/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('portfolio_link')}
-            </Link>
-          </li>
-          <li>
-            <a
-              className="border-none text-gray-700 hover:text-gray-900"
-              href="https://github.com/resatyildiz"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              className="border-none text-gray-700 hover:text-gray-900"
-              href="https://www.linkedin.com/in/resatyildiz/"
-            >
-              LinkedIn
-            </a>
-          </li>
-        </>
+        <li>
+          <Link
+            href="/"
+            className="border-none text-gray-700 hover:text-gray-900"
+          >
+            {t('home_link')}
+          </Link>
+        </li>
       }
       rightNav={
         <li>

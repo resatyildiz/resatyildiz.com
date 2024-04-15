@@ -5,9 +5,9 @@ import messages from '@/locales/en.json';
 
 import Index from './page';
 
-describe('Index page', () => {
+describe('Index page for EN', () => {
   describe('Render method', () => {
-    it('should have h1 tag', () => {
+    it('should have h1 tag in en locale', () => {
       render(
         <NextIntlClientProvider locale="en" messages={messages}>
           <Index />
@@ -15,7 +15,7 @@ describe('Index page', () => {
       );
 
       const heading = screen.getByRole('heading', {
-        name: /Boilerplate Code/,
+        name: 'Who am I?',
       });
 
       expect(heading).toBeInTheDocument();
