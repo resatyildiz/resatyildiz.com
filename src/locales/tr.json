@@ -1,19 +1,20 @@
 {
   "RootLayout": {
-    "home_link": "Selam!",
+    "home_link": "Giriş",
     "about_link": "Ben Kimim?",
     "guestbook_link": "Ziyaretçi Defteri",
     "portfolio_link": "Portfolyo",
     "sign_in_link": "Giriş yap",
-    "sign_up_link": "Kayıt ol"
+    "sign_up_link": "Kayıt ol",
+    "some_links": "Bazı Linkler"
   },
   "BaseTemplate": {
-    "description": "Nextjs Boilerplate ile Tailwind CSS için başlangıç kodu",
+    "description": "Reşat YILDIZ | Senior Frontend Developer @ Gordion",
     "made_with": "İle yapıldı"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Sunumu",
-    "meta_description": "Next js Boilerplate, projeniz için mükemmel bir başlangıç kodudur. Next.js çerçevesiyle React uygulamanızı oluşturun."
+    "meta_title": "Reşat YILDIZ | Senior Frontend Developer @ Gordion",
+    "meta_description": "Reşat YILDIZ, Senior Frontend Developer olarak Gordion Teknoloji firmasında çalışmaktadır. Javascript, ReactJS, NextJS ve diğer yazılım teknolojileri hakkında bilgi sahibidir."
   },
   "Guestbook": {
     "meta_title": "Ziyaretçi Defteri",
@@ -27,9 +28,9 @@
     "save": "Kaydet"
   },
   "About": {
-    "meta_title": "Hakkımızda",
+    "meta_title": "Ben Kimim?",
     "meta_description": "Hakkında sayfası açıklaması",
-    "about_paragraph": "Hakkımızda sayfamıza hoş geldiniz! Harika yazılımlar oluşturmaya adanmış tutkulu bir ekip olarak sizi karşılıyoruz.",
+    "about_paragraph": "Gordion'da Kıdemli Ön Uç Geliştiricisi olarak, JavaScript, ReactJS, NextJS, Storybook ve diğer modern ön uç ve arka uç teknolojilerini kullanarak kullanıcı dostu ve performans odaklı web uygulamaları oluşturuyor ve katkıda bulunuyorum. Web geliştirmede 2010 yılından günümüze deneyim sahibiyim, çeşitli sektörlerde projeler geliştirdim ve hala inovatif yaklaşım ve çözüm önerilerim ile yeni projelerde sorumluluk üstleniyorum. Yeni JavaScript çerçeveleri ve mimari yaklaşımları öğrenmekten keyif alıyorum ve her zaman yüksek kaliteli kod ve kullanıcı deneyimleri sunmaya çalışıyorum. Azure, Plesk, Vercel, Github ortamlarında CI/CD süreçlerinde çalışıyor; Scrum, Agile Proje Yönetimi ile iş geliştirme süreçlerinde ekip iletişimi sağlayabiliyorum. Türkçe ve İngilizce dillerine hakimim.",
     "translation_powered_by": "Çeviri tarafından desteklenmektedir"
   },
   "Portfolio": {

@@ -5,15 +5,16 @@
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_up_link": "Sign up",
+    "some_links": "Some useful links"
   },
   "BaseTemplate": {
     "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
     "made_with": "Made with"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+    "meta_title": "Reşat YILDIZ | Senior Frontend Developer @ Gordion",
+    "meta_description": "Reşat YILDIZ, work as a Senior Frontend Developer at Gordion Technology. He has knowledge about Javascript, ReactJS, NextJS and other software technologies."
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -27,9 +28,9 @@
     "save": "Save"
   },
   "About": {
-    "meta_title": "About",
+    "meta_title": "Who am I?",
     "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "about_paragraph": "As a Senior Frontend Developer at Gordion, I create and support user-friendly and performance-focused web applications using ReactJS, NextJS, Storybook, and other modern technologies. I have more than 5 years of experience in frontend development, working on various sectoral and corporate projects I enjoy learning new JS frameworks and architectural approaches, and I always strive to deliver high-quality code and user experiences. I have a bachelor's degree in Labor Economy and Industrial Relations from Cumhuriyet University, where I also studied Computer Programming. I am proficient in Azure, Scrum, Agile Project Management, and Turkish and English languages.",
     "translation_powered_by": "Translation powered by"
   },
   "Portfolio": {
