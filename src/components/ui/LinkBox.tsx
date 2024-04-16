@@ -1,3 +1,4 @@
+import { Link as Link2 } from 'lucide-react';
 import Link from 'next/link';
 import { cloneElement, createElement, type ReactNode } from 'react';
 
@@ -29,7 +30,7 @@ const LinkBox = ({
     {
       // eslint-disable-next-line tailwindcss/no-custom-classname
       className: cn(
-        'block rounded-lg border border-gray-200 p-4 transition-all ',
+        'group block rounded-lg border border-gray-200 p-4 transition-all',
         className,
         bgImage ? `bg-title bg-cover` : 'bg-gray-50',
         href && 'hover:cursor-pointer hover:shadow',
@@ -37,7 +38,15 @@ const LinkBox = ({
     },
 
     <>
-      {Icon && Icon}
+      <div className="flex items-center justify-between">
+        {Icon && Icon}
+        {href && (
+          <Link2
+            size={15}
+            className="text-gray-200 transition-all group-hover:text-gray-500"
+          />
+        )}
+      </div>
       <div className="my-2">{title}</div>
     </>,
   );
