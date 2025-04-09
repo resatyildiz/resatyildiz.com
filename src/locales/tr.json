@@ -68,5 +68,15 @@
     "dashboard_link": "Kontrol Paneli",
     "user_profile_link": "Hesabınızı yönetin",
     "sign_out": "Çıkış yap"
+  },
+  "PostLayout": {
+    "page_title": "Yazılar",
+    "page_description": "Yazılarımın listesi. Yazılarımı okuyun, beğenin ve paylaşın. Yorumlarınızı bekliyorum. :)",
+    "latest_posts": "Son Gönderiler",
+    "popular_posts": "Popüler Gönderiler",
+    "tags": "Etiketler",
+    "view_all": "Hepsini Gör",
+    "search": "Ara",
+    "loading": "Yükleniyor..."
   }
 }

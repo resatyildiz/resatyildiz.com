@@ -16,7 +16,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-export default function Index() {
+export default function Page() {
   const t = useTranslations('About');
   const rootT = useTranslations('RootLayout');
 

@@ -66,5 +66,15 @@
     "dashboard_link": "Tableau de bord",
     "user_profile_link": "Gérer votre compte",
     "sign_out": "Se déconnecter"
+  },
+  "PostLayout": {
+    "page_title": "Blog",
+    "page_description": "Découvrez les derniers articles de notre blog.",
+    "latest_posts": "Derniers articles",
+    "popular_posts": "Articles populaires",
+    "tags": "Tags",
+    "view_all": "Voir tout",
+    "search": "Rechercher",
+    "loading": "Chargement..."
   }
 }

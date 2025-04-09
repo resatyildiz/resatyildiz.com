@@ -10,14 +10,24 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <BaseTemplate
       leftNav={
-        <li>
-          <Link
-            href="/"
-            className="border-none text-gray-700 hover:text-gray-900"
-          >
-            {t('home_link')}
-          </Link>
-        </li>
+        <>
+          <li>
+            <Link
+              href="/"
+              className="border-none text-gray-700 hover:text-gray-900"
+            >
+              {t('home_link')}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/posts"
+              className="border-none text-gray-700 hover:text-gray-900"
+            >
+              Yazılar
+            </Link>
+          </li>
+        </>
       }
       rightNav={
         <li>

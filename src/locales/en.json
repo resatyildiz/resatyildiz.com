@@ -67,5 +67,16 @@
     "dashboard_link": "Dashboard",
     "user_profile_link": "Manage your account",
     "sign_out": "Sign out"
+  },
+
+  "PostLayout": {
+    "page_title": "Posts",
+    "page_description": "Welcome to my blog page! Here you will find a collection of my thoughts, experiences, and insights on various topics. I hope you enjoy reading them as much as I enjoyed writing them.",
+    "latest_posts": "Latest Posts",
+    "popular_posts": "Popular Posts",
+    "tags": "Tags",
+    "view_all": "View All",
+    "search": "Search",
+    "loading": "Loading..."
   }
 }
